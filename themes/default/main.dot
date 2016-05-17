@@ -15,13 +15,11 @@
     <!-- Generated with comment.js -->
 
     <div id="header">
-      <a href="{{?it.homepage}}{{=it.homepage}}{{??}}{{?}}">
-        <img src="{{?it.logo}} {{=it.logo}} {{??}}img/logo.png{{?}}" alt="{{=it.title}}" />
-      </a>
+      <div id="header-inner">{{=it.title}}</div>
     </div>
 
     <div id="cjs-documentation" class="cjs-panel">
-      <h1>{{=it.title}}</h1>
+      <h1></h1>
 
       {{~it.sections :section}}
 
